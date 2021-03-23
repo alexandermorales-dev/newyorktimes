@@ -4,10 +4,9 @@ body {
   margin: 0;
 }
 .navbar {
-  display: grid;
-  grid-template-columns: 50px 50px 200px 700px 500px;
-  grid-template-rows: 50px;
+  display: flex;
   align-content: center;
+  align-items: baseline;
   background-color: white;
   box-shadow: rgb(0 0 0 / 8%) 0 0 5px 1px;
   width: 100%;
@@ -15,8 +14,6 @@ body {
 }
 
 .menu {
-  justify-self: left;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 20px;
@@ -24,35 +21,32 @@ body {
 
 .search {
   margin-left: 20px;
-  display: flex;
   align-items: center;
   justify-content: left;
 }
 
 .topic {
-  display: flex;
   font-weight: bold;
   align-items: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 20px;
+  width: 350px;
 }
 
 .title {
-  display: flex;
+  margin-left: 20%;
   justify-content: center;
-  align-items: center;
-}
-
-.title img {
-  max-width: 40%;
-  padding: 500px;
+  align-self: center;
+  justify-self: center;
 }
 
 .login-btns {
-  justify-content: center;
   display: flex;
+  justify-content: flex-end;
+  float: right;
   align-items: center;
   width: 100%;
+  height: 40px;
 }
 .login-btns button {
   background-color: #567b95;
@@ -60,20 +54,20 @@ body {
   color: white;
   border-radius: 5px;
   font-weight: bold;
-  font-size: 12px;
-  margin-right: 25px;
-  height: 80%;
-  width: 30%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 90%;
+  width: 20%;
+  margin-left: 10px;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  font-family: "Helvetica";
-  font-style: oblique;
-  height: auto;
+  height: 1020px;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
+  width: 100%;
 }
 
 .header-title {
@@ -86,7 +80,7 @@ body {
 .divider {
   position: relative;
   border-top: 1px solid #ebebeb;
-  width: 40%;
+  width: 45%;
 }
 
 .social-icons {
@@ -94,7 +88,7 @@ body {
   display: flex;
   width: 40%;
   height: 30px;
-  justify-content: left;
+  justify-content: flex-start;
 }
 
 .social-icons button {
@@ -154,9 +148,9 @@ body {
 }
 
 .article-img {
-  margin-top: 50px;
-  height: 600px;
-  width: 70%;
+  margin-top: 30px;
+  height: 400px;
+  width: 80%;
 }
 
 .article-img img {
@@ -164,6 +158,11 @@ body {
   max-height: 100%;
 }
 
+.img-description {
+  width: 80%;
+  opacity: 0.8;
+  font-size: 19px;
+}
 .writer {
   color: grey;
   font-style: normal;
@@ -173,29 +172,21 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 300px 1fr 300px;
-  border: 3px orange solid;
+  grid-template-columns: 1fr 3fr 1fr;
   justify-content: center;
   grid-auto-rows: 100px;
   height: 1000px;
 }
 
 .content {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 900px;
-  grid-auto-rows: 150px;
-  border: 4px blue solid;
-  justify-content: center;
-  justify-items: center;
 }
 
 .author {
-  display: flex;
-  justify-items: left;
-  height: 20px;
   margin-top: 30px;
   font-weight: bold;
-  border: red 1px solid;
   width: 60%;
 }
 .author a {
@@ -204,22 +195,34 @@ body {
 }
 
 .date {
-  position: inherit;
-  margin-top: 50px;
+  margin-top: 10px;
   font-weight: normal;
-  border: red 1px solid;
 }
 
 .text {
-  position: inherit;
+  border-top: 1px solid #ebebeb;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 24px;
   opacity: 0.8;
-  font-weight: bold;
   width: 70%;
-  border: red 1px solid;
+  align-self: center;
+  line-height: 2rem;
 }
 
 .sidebar {
-  border: 1px blue solid;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.editor {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid #ebebeb;
+  width: 50%;
+  padding-bottom: 20px;
 }
