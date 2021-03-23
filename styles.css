@@ -104,6 +104,7 @@ body {
   background-color: white;
   border: 1px solid rgb(230, 230, 230);
 }
+
 .fb {
   background-image: url(/images/fb.png);
   background-size: 20px 20px;
@@ -231,6 +232,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 2px solid #ebebeb;
   padding-bottom: 20px;
+  width: 300px;
 }
 
 .editor-pick {
