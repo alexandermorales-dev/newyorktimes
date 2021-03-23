@@ -100,7 +100,10 @@ body {
   cursor: pointer;
   border-color: transparent;
 }
-
+.social-icons button:hover {
+  background-color: white;
+  border: 1px solid rgb(230, 230, 230);
+}
 .fb {
   background-image: url(/images/fb.png);
   background-size: 20px 20px;
@@ -110,8 +113,10 @@ body {
 
 .whatsapp {
   background-image: url(/images/whatsapp.png);
-  background-size: 25px 25px;
+  background-size: 20px 20px;
   background-repeat: no-repeat;
+  background-position-x: 2px;
+  background-position-y: 3px;
 }
 .twitter {
   background-image: url(/images/twitter.png);
@@ -123,7 +128,8 @@ body {
   background-image: url(/images/mail.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x: 2px;
+  background-position-y: 3px;
 }
 .share {
   background-image: url(/images/arrow-right.png);
