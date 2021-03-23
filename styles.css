@@ -318,3 +318,19 @@ article {
 .cta-text {
   font-size: 16px;
 }
+
+.theory {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.theory-img {
+  border: 1px solid black;
+}
+
+.theory-img img {
+  max-height: 30px;
+  max-width: 30px;
+}
