@@ -3,6 +3,7 @@
 body {
   margin: 0;
 }
+
 .navbar {
   display: flex;
   align-content: center;
@@ -48,6 +49,7 @@ body {
   width: 100%;
   height: 40px;
 }
+
 .login-btns button {
   background-color: #567b95;
   border: 1px solid #326891;
@@ -100,6 +102,7 @@ body {
   cursor: pointer;
   border-color: transparent;
 }
+
 .social-icons button:hover {
   background-color: white;
   border: 1px solid rgb(230, 230, 230);
@@ -119,12 +122,14 @@ body {
   background-position-x: 2px;
   background-position-y: 3px;
 }
+
 .twitter {
   background-image: url(/images/twitter.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .mail {
   background-image: url(/images/mail.png);
   background-size: 20px 20px;
@@ -132,12 +137,14 @@ body {
   background-position-x: 2px;
   background-position-y: 3px;
 }
+
 .share {
   background-image: url(/images/arrow-right.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .save {
   background-image: url(/images/bookmark.png);
   background-color: transparent;
@@ -145,6 +152,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .comments {
   background-image: url(/images/comments.png);
   background-color: transparent;
@@ -170,6 +178,7 @@ body {
   opacity: 0.8;
   font-size: 19px;
 }
+
 .writer {
   color: grey;
   font-style: normal;
@@ -196,6 +205,7 @@ body {
   font-weight: bold;
   width: 60%;
 }
+
 .author a {
   text-decoration: none;
   color: black;
@@ -219,7 +229,6 @@ body {
 }
 
 .sidebar {
-  /* border: 1px black solid; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -245,6 +254,7 @@ body {
 .editor-pick-link {
   margin-left: 10px;
 }
+
 .editor-pick-link a {
   color: black;
   text-decoration: none;
