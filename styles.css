@@ -337,7 +337,7 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .editor {
@@ -570,4 +570,95 @@ article {
 
 .article-sidebar:hover {
   opacity: 0.4;
+}
+
+/* FOOTER  */
+
+.footer {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  border-top: 1px double rgb(196, 196, 196);
+  border-bottom: 1px double rgb(196, 196, 196);
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  opacity: 0.8;
+  width: 90%;
+}
+
+.footer-title {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-col-title {
+  text-transform: uppercase;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+.links a {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* SUBSCRIBE COLUMN */
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(180, 176, 176);
+  padding-left: 20px;
+  margin-left: 50px;
+  width: 100%;
+}
+
+/* DIVIDER  */
+
+.divider-footer-subscribe-col {
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.small-txt {
+  font-size: 13px;
+}
+/* FOOTER NAV BAR  */
+
+.footer-nav {
+  grid-column: 1/-1;
+  justify-items: center;
+  display: inline;
+  color: rgb(105, 102, 102);
+  font-weight: normal;
+  font-size: 12px;
+  border-top: 1px solid rgba(190, 189, 189, 0.719);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.footer-nav a {
+  color: rgb(109, 105, 105);
+  margin-left: 10px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  width: 15px;
+  margin-right: 10px;
 }
