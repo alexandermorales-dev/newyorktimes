@@ -438,3 +438,28 @@ article {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.7;
 }
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  border: 1px solid black;
+  margin: 0 100px;
+}
+.related-topics {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.popular-topics {
+  background-color: blue;
+}
+
+.topic {
+  background-color: white;
+}
+
+.topic img {
+  max-width: 100%;
+}
