@@ -122,16 +122,20 @@ a {
 }
 
 .btn-comments {
-  background-color: rgb(6, 79, 134);
+  background-color: rgb(86, 123, 149);
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-weight: bold;
   border-radius: 3px;
   width: 50%;
   height: 40px;
-  border: 1px solid rgb(50, 104, 145);
+  border: 3px solid rgb(32, 69, 97);
   cursor: pointer;
   outline: none;
+}
+
+.btn-comments:hover {
+  background-color: rgb(42, 86, 117);
 }
 
 /* social icons at top  */
