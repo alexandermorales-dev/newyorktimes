@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  height: 1500vh;
 }
 
 .navbar {
@@ -100,7 +101,7 @@ body {
   font-weight: bold;
 }
 
-.subscribe a {
+a {
   text-decoration: none;
   color: rgb(50, 104, 145);
 }
@@ -112,7 +113,49 @@ body {
   justify-content: flex-start;
 }
 
+.bottom-social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn-comments {
+  background-color: rgb(6, 79, 134);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 50%;
+  height: 40px;
+  border: 1px solid rgb(50, 104, 145);
+  cursor: pointer;
+  outline: none;
+}
+
+/* social icons at top  */
+
 .social-icons button {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  outline: none;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+/* social icons at bottom */
+
+.social-icons-row {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  justify-content: center;
+}
+
+.social-icons-row button {
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -192,10 +235,39 @@ body {
   max-height: 100%;
 }
 
+.article-img2 {
+  display: flex;
+  /* height: 200px; */
+  width: 100%;
+  height: fit-content;
+}
+.article-img2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .img-description {
   width: 80%;
   opacity: 0.8;
   font-size: 19px;
+}
+.img-description2 {
+  width: 100%;
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+.article-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.article-bottom a {
+  text-decoration: underline;
+  color: inherit;
+}
+.article-bottom a:hover {
+  text-decoration: none;
 }
 
 .writer {
@@ -210,13 +282,14 @@ body {
   grid-template-columns: 1fr 3fr 1fr;
   justify-content: center;
   grid-auto-rows: 100px;
-  height: 1000px;
+  height: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  height: 900px;
+  height: fit-content;
+  align-items: center;
 }
 
 .author {
@@ -235,7 +308,7 @@ body {
   font-weight: normal;
 }
 
-.text {
+.mid-content {
   border-top: 1px solid #ebebeb;
   font-family: "Times New Roman", Times, serif;
   padding-top: 20px;
@@ -244,6 +317,10 @@ body {
   width: 70%;
   align-self: center;
   line-height: 2rem;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 article {
@@ -354,4 +431,10 @@ article {
 .grid-author {
   margin-top: 10px;
   width: 400px;
+}
+
+#video-caption {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
 }
