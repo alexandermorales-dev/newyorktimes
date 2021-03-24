@@ -131,23 +131,6 @@ a {
   margin-top: 20px;
 }
 
-.btn-comments {
-  background-color: rgb(86, 123, 149);
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: bold;
-  border-radius: 3px;
-  width: 50%;
-  height: 40px;
-  border: 3px solid rgb(32, 69, 97);
-  cursor: pointer;
-  outline: none;
-}
-
-.btn-comments:hover {
-  background-color: rgb(42, 86, 117);
-}
-
 /* social icons at top  */
 
 .social-icons button {
@@ -465,11 +448,30 @@ article {
   opacity: 0.7;
 }
 
-/* BOTTOM SECTION */
+/* SOCIAL ICONS AND COMMENTS BUTTON SECTION  */
+
+.btn-comments {
+  background-color: rgb(86, 123, 149);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 50%;
+  height: 40px;
+  border: 2px solid rgb(32, 69, 97);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-comments:hover {
+  background-color: rgb(42, 86, 117);
+}
+
+/* BOTTOM SECTION - RELATED TOPICS */
 
 .container-bottom {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1.5fr;
   grid-auto-rows: minmax(100px, auto);
   grid-column-gap: 30px;
   justify-content: center;
@@ -492,6 +494,7 @@ article {
 .topic-section-title {
   grid-column: 1 / -1;
   font-weight: bold;
+  /* margin-top: 30px; */
 }
 .topic-section-title a {
   color: black;
@@ -511,6 +514,11 @@ article {
   width: 90%;
 }
 
+.topic-img a {
+  text-decoration: none;
+  color: black;
+}
+
 .caption {
   font-size: 12px;
   text-align: right;
@@ -519,19 +527,19 @@ article {
   width: 90%;
 }
 
+/* IMG TITLE  */
+
 .topic-title {
+  margin-top: 5px;
   font-weight: bold;
   font-size: 18px;
-}
-
-.topic-img a {
-  text-decoration: none;
-  color: black;
 }
 
 .topic-title:hover {
   opacity: 0.8;
 }
+
+/* DIVIDER  */
 
 .topics-divider {
   border-top: black 1px solid;
@@ -543,5 +551,23 @@ article {
 
 .sidebar-bottom {
   display: grid;
-  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: minmax(50px, auto);
+  border-top: 1px solid black;
+  margin-right: 50px;
+  align-content: flex-start;
+}
+
+.article-sidebar {
+  border-top: 1px solid rgb(175, 175, 175);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.article-sidebar:hover {
+  opacity: 0.4;
 }
