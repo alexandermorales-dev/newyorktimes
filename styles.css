@@ -5,6 +5,8 @@ body {
   height: 1500vh;
 }
 
+/* NAVBAR  */
+
 .navbar {
   display: flex;
   align-content: center;
@@ -74,6 +76,8 @@ body {
   width: 10%;
 }
 
+/* HEADER  */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -94,6 +98,7 @@ body {
   border-top: 1px solid #ebebeb;
   width: 45%;
 }
+
 .divider-short {
   display: inline-flex;
   transform: translateX(250px);
@@ -103,6 +108,7 @@ body {
   text-align: center;
   margin-left: -70px;
 }
+
 .subscribe {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
@@ -115,6 +121,7 @@ a {
   text-decoration: none;
   color: rgb(50, 104, 145);
 }
+
 .social-icons {
   margin-top: 20px;
   display: flex;
@@ -236,10 +243,9 @@ a {
 
 .article-img2 {
   display: flex;
-  /* height: 200px; */
   width: 100%;
-  height: fit-content;
 }
+
 .article-img2 img {
   max-width: 100%;
   max-height: 100%;
@@ -250,6 +256,7 @@ a {
   opacity: 0.8;
   font-size: 19px;
 }
+
 .img-description2 {
   width: 100%;
   opacity: 0.8;
@@ -265,6 +272,46 @@ a {
   text-decoration: underline;
   color: inherit;
 }
+
+.author {
+  margin-top: 30px;
+  font-weight: bold;
+  width: 60%;
+}
+
+.author a {
+  text-decoration: none;
+  color: black;
+}
+
+.editor-pick-link {
+  margin-left: 10px;
+}
+
+.footer-nav a {
+  color: rgb(109, 105, 105);
+  margin-left: 10px;
+}
+
+.links a {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.topic-img a {
+  text-decoration: none;
+  color: black;
+}
+
+.topic-section-title a {
+  color: black;
+}
+
+.editor-pick-link a {
+  color: black;
+  text-decoration: none;
+}
+
 .article-bottom a:hover {
   text-decoration: none;
 }
@@ -283,25 +330,12 @@ a {
   grid-template-columns: 1fr 3fr 1fr;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
-  height: fit-content;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  height: fit-content;
   align-items: center;
-}
-
-.author {
-  margin-top: 30px;
-  font-weight: bold;
-  width: 60%;
-}
-
-.author a {
-  text-decoration: none;
-  color: black;
 }
 
 .date {
@@ -355,15 +389,6 @@ article {
   width: 100%;
 }
 
-.editor-pick-link {
-  margin-left: 10px;
-}
-
-.editor-pick-link a {
-  color: black;
-  text-decoration: none;
-}
-
 .editor-pick-link a:hover {
   text-decoration: underline;
 }
@@ -391,6 +416,7 @@ article {
   background-color: transparent;
   cursor: pointer;
 }
+
 .signup:hover {
   background-color: black;
   color: white;
@@ -475,7 +501,6 @@ article {
   grid-auto-rows: minmax(100px, auto);
   grid-column-gap: 30px;
   justify-content: center;
-  height: fit-content;
   margin-top: 50px;
 }
 
@@ -494,10 +519,6 @@ article {
 .topic-section-title {
   grid-column: 1 / -1;
   font-weight: bold;
-  /* margin-top: 30px; */
-}
-.topic-section-title a {
-  color: black;
 }
 
 .topic-section-title a:hover {
@@ -512,11 +533,6 @@ article {
 
 .topic-img img {
   width: 90%;
-}
-
-.topic-img a {
-  text-decoration: none;
-  color: black;
 }
 
 .caption {
@@ -547,6 +563,7 @@ article {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 /* SIDEBAR  */
 
 .sidebar-bottom {
@@ -606,11 +623,6 @@ article {
   font-weight: normal;
 }
 
-.links a {
-  margin-bottom: 10px;
-  color: black;
-}
-
 .links a:hover {
   text-decoration: underline;
 }
@@ -626,6 +638,11 @@ article {
   width: 100%;
 }
 
+.icons {
+  width: 15px;
+  margin-right: 10px;
+}
+
 /* DIVIDER  */
 
 .divider-footer-subscribe-col {
@@ -633,9 +650,11 @@ article {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .small-txt {
   font-size: 13px;
 }
+
 /* FOOTER NAV BAR  */
 
 .footer-nav {
@@ -649,19 +668,12 @@ article {
   margin-top: 10px;
   padding-top: 10px;
 }
-.footer-nav a {
-  color: rgb(109, 105, 105);
-  margin-left: 10px;
-}
 
 .footer-nav a:hover {
   text-decoration: underline;
 }
 
-.icons {
-  width: 15px;
-  margin-right: 10px;
-}
+/* ADVERTISEMENT BAR  */
 
 .ad {
   display: flex;
@@ -689,10 +701,10 @@ article {
 .expand-btn {
   width: 20%;
   text-transform: uppercase;
-  font-size: 16;
+  font-size: 16px;
   font-weight: bold;
 }
 
-.expand-btn:after {
+.expand-btn::after {
   content: " \005E";
 }
