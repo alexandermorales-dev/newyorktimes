@@ -662,3 +662,37 @@ article {
   width: 15px;
   margin-right: 10px;
 }
+
+.ad {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-top: 1px solid black;
+  z-index: 1;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.subscription {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  transform: translateX(20px);
+}
+
+.expand-btn {
+  width: 20%;
+  text-transform: uppercase;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.expand-btn:after {
+  content: " \005E";
+}
