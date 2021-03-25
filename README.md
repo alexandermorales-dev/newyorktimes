@@ -1,4 +1,4 @@
-# Project Name
+# HTML & CSS3 - The New York Times
 
 This is my first project in Microverse, the purpose of it is to replicate an article from the New York Times website using HTML and CSS3 skills,focused on the layout, positioning and floating.
 
