@@ -389,13 +389,11 @@ article {
 
 /* CALL TO ACTION  */
 
-.call-to-action {
+.flex-and-serif {
   display: flex;
   font-family: "Times New Roman", Times, serif;
 }
-
 .signup {
-  display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid black;
@@ -405,7 +403,6 @@ article {
   padding: 10px;
   font-weight: 700;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   color: black;
   background-color: transparent;
   cursor: pointer;
