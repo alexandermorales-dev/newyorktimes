@@ -280,7 +280,9 @@ a {
   width: 60%;
 }
 
-.author a {
+.author a,
+.topic-img a,
+.editor-pick-link a {
   text-decoration: none;
   color: black;
 }
@@ -299,21 +301,12 @@ a {
   color: black;
 }
 
-.topic-img a {
-  text-decoration: none;
-  color: black;
-}
-
 .topic-section-title a {
   color: black;
 }
 
 .editor-pick-link a {
   color: black;
-  text-decoration: none;
-}
-
-.article-bottom a:hover {
   text-decoration: none;
 }
 
