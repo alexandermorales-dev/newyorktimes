@@ -722,6 +722,7 @@ form {
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 fieldset {
   border-radius: 10px;
 }
@@ -773,6 +774,5 @@ legend {
   font-weight: bold;
   cursor: pointer;
   transform: translateY(-3px);
-  /* transform: translateX(5px); */
   transition: 0.5s ease-in-out;
 }
