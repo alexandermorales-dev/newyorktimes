@@ -469,6 +469,10 @@ article {
 
 /* VIDEO ARTICLE SECTION */
 
+iframe {
+  border: 0;
+}
+
 #video-caption {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
