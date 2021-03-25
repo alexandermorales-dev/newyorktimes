@@ -702,10 +702,11 @@ article {
 .expand-btn {
   width: 20%;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .expand-btn::after {
   content: " \005E";
+  margin-left: 5px;
 }
