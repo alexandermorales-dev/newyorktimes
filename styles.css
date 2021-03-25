@@ -383,7 +383,10 @@ article {
   width: 100%;
 }
 
-.editor-pick-link a:hover {
+.editor-pick-link a:hover,
+.topic-section-title a:hover,
+.links a:hover,
+.footer-nav a:hover {
   text-decoration: underline;
 }
 
@@ -516,10 +519,6 @@ iframe {
   font-weight: bold;
 }
 
-.topic-section-title a:hover {
-  text-decoration: underline;
-}
-
 .topic-img {
   margin-top: 30px;
   display: flex;
@@ -618,10 +617,6 @@ iframe {
   font-weight: normal;
 }
 
-.links a:hover {
-  text-decoration: underline;
-}
-
 /* SUBSCRIBE COLUMN */
 
 .left-section {
@@ -662,10 +657,6 @@ iframe {
   border-top: 1px solid rgba(190, 189, 189, 0.719);
   margin-top: 10px;
   padding-top: 10px;
-}
-
-.footer-nav a:hover {
-  text-decoration: underline;
 }
 
 /* ADVERTISEMENT BAR  */
