@@ -23,16 +23,11 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps:
 
-  - Just clone this repository to your local files - there's no further installation/setup needed
-  - Images may not load properly
-
-### Prerequisites
-
-  - None
+  - Just clone this repository to your local files - there's no further installation/setup needed as there is no external code/libraries/framework used than the code included in this repository :)
 
 ## Author
 
-👤 **Author**
+👤 **Alexander Morales**
 
 - GitHub: [@AlexJustAlex2020](https://github.com/AlexJustAlex2020/)
 - Twitter: [@Alexand81099721](https://twitter.com/Alexand81099721)
@@ -42,13 +37,8 @@ To get a local copy up and running follow these simple example steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AlexJustAlex2020/newyorktimesissues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
-## 📝 License
-
-This project has not been licensed.
