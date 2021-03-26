@@ -176,14 +176,14 @@ a {
 }
 
 .fb {
-  background-image: url(/images/fb.png);
+  background-image: url(./images/fb.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .whatsapp {
-  background-image: url(/images/whatsapp.png);
+  background-image: url(./images/whatsapp.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position-x: 2px;
@@ -191,14 +191,14 @@ a {
 }
 
 .twitter {
-  background-image: url(/images/twitter.png);
+background-image: url(./images/twitter.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .mail {
-  background-image: url(/images/mail.png);
+  background-image: url(./images/mail.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position-x: 2px;
@@ -206,14 +206,14 @@ a {
 }
 
 .share {
-  background-image: url(/images/arrow-right.png);
+  background-image: url(./images/arrow-right.png);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .save {
-  background-image: url(/images/bookmark.png);
+background-image: url(./images/bookmark.png);
   background-color: transparent;
   background-size: 30px 30px;
   background-repeat: no-repeat;
@@ -221,7 +221,7 @@ a {
 }
 
 .comments {
-  background-image: url(/images/comments.png);
+  background-image: url(./images/comments.png);
   background-color: transparent;
   background-size: 30px 30px;
   background-repeat: no-repeat;
@@ -307,6 +307,10 @@ a {
 
 .editor-pick-link a {
   color: black;
+  text-decoration: none;
+}
+
+.article-bottom a:hover {
   text-decoration: none;
 }
 
@@ -396,6 +400,7 @@ article {
   display: flex;
   font-family: "Times New Roman", Times, serif;
 }
+
 .signup {
   align-items: center;
   justify-content: center;
@@ -616,8 +621,6 @@ iframe {
   margin-top: 10px;
   font-weight: normal;
 }
-
-/* SUBSCRIBE COLUMN */
 
 .left-section {
   display: flex;
