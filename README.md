@@ -1,42 +1,44 @@
-# HTML & CSS3 - New York Times article
+# HTML & CSS3 - The New York Times
 
-This is the first project in Microverse, the purpose of it is to replicate an article from the New York Times website using HTML and CSS3 skills,focused on the layout, positioning and floating.
+This is my first project in Microverse, the purpose of it is to replicate an article from the New York Times website using HTML and CSS3 skills,focused on the layout, positioning and floating.
 
-<strong>Additional description about the project and its features:</strong>
+![screenshot](./images/screenshot.png)
 
-<ul>
-  <li>Built With HTML and CSS3</li>
-  <li>No other languages used</li>
-  <li>Applied the use of Linters for HTML and CSS3</li>
-  <li>Live Demo Link: https://alexjustalex2020.github.io/newyorktimes/</li>
-</ul>
+Additional description about the project and its features.
 
-<h3> Getting Started </h3>
+## Built With
 
-There's no need to install anything in order to see this project. By clicking on the live demo link you should be able too see the full website.
+  - Built With HTML and CSS3
+  - No other languages used
+  - Applied the use of Linters for HTML and CSS3
 
-<strong>Notes:</strong>
+## Live Demo
 
-<ul>
-  <li>Images may not load properly.</li>
-</ul>
+[Live Demo Link](https://alexjustalex2020.github.io/newyorktimes/)
 
-<strong>To get a local copy up and running follow these simple steps: </strong>
 
-<ul>
-  <li>Just clone this repository to your local files - there's no further installation/setup needed.</li>
-</ul>
+## Getting Started
 
-<strong> Contributions, issues, and feature requests are welcome!</strong>
+** There's no need to install anything in order to see this project. By clicking on the live demo link you should be able too see the full website. **
 
-Feel free to check the issues page.
+To get a local copy up and running follow these simple example steps:
 
-<strong> Show your support </strong>
+  - Just clone this repository to your local files - there's no further installation/setup needed as there is no external code/libraries/framework used than the code included in this repository :)
 
-Give a star if you like this project!
+## Author
 
-<strong> Inspiration </strong>
-From Microverse program 2.0
+👤 **Alexander Morales**
 
-<strong> License </strong>
-This project has not been licensed.
+- GitHub: [@AlexJustAlex2020](https://github.com/AlexJustAlex2020/)
+- Twitter: [@Alexand81099721](https://twitter.com/Alexand81099721)
+- LinkedIn: [AlexanderMorales](https://www.linkedin.com/in/alexander-morales-b8539898/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/AlexJustAlex2020/newyorktimesissues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
