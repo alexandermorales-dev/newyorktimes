@@ -979,5 +979,50 @@
       </div>
       <div class="expand-btn">Expand</div>
     </div>
+
+    <!-- FORM -->
+
+    <div class="form">
+      <fieldset>
+        <legend>LEAVE US A COMMENT BELOW</legend>
+        <form action="#" method="POST" onsubmit="return false">
+          <label for="name">Name </label>
+          <input
+            type="text"
+            id="name"
+            placeholder="John Doe"
+            maxlength="20"
+            required
+          />
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="john@email.com"
+            maxlength="20"
+            required
+          />
+          <label for="comments">Leave your comments: </label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="10"
+            rows="5"
+            placeholder="Type your comment here…"
+            maxlength="25"
+            required
+          ></textarea>
+          <label> What is your overall opinion about this article: </label>
+          <input type="radio" name="opinion" id="positive" value="Positive" />
+          <label for="neutral">Neutral</label>
+          <input type="radio" name="opinion" id="neutral" value="Neutral" />
+          <label for="negative">Negative</label>
+          <input type="radio" name="opinion" id="negative" value="Negative" />
+          <label for="newsletter">I want to subscribe</label>
+          <input type="checkbox" name="newsletter" id="newsletter" />
+          <input type="submit" class="submit-btn" value="Send" />
+        </form>
+      </fieldset>
+    </div>
   </body>
 </html>
